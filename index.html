@@ -59,9 +59,47 @@
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+   
+	<tr onmouseout="nuvo_stop()" onmouseover="nuvo_start()">
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='nuvo_image'><video  width=100% muted autoplay loop>
+      <source src="image_new/imputation.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video></div>
+      <img src='image_new/imp_1.jpg' width=100%>
+    </div>
+    <script type="text/javascript">
+      function nuvo_start() {
+        document.getElementById('nuvo_image').style.opacity = "1";
+      }
 
+      function nuvo_stop() {
+        document.getElementById('nuvo_image').style.opacity = "0";
+      }
+      nuvo_stop()
+    </script>
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <a href="image_new/Northwestern_Thesis_2024.pdf">
+      <span class="papertitle">Prompting Instability: An Empirical Study of LLM Robustness in Code Vulnerability Detection</span>
+    </a>
+    <br>
+<strong>Shuo Han</strong>
+    <br>
+    <em>Northwestern University</em>, 2024
+    <br>
+    <a href="data/hydro_pre.pdf">project page</a>
+    /
+    <a href="data/Northwestern_Thesis_2024.pdf">PDF</a>
+    <p></p>
+    <p>
+    A novel approach which enhances the resolution of hydrological data with spatiotemporal inputs, leveraging Graph Recurrent Neural Network (GRNN).
+    </p>
+  </td>
+</tr>
 
-    <tr onmouseout="nuvo_stop()" onmouseover="nuvo_start()">
+    <!-- <tr onmouseout="nuvo_stop()" onmouseover="nuvo_start()">
   <td style="padding:20px;width:25%;vertical-align:middle">
     <div class="one">
       <div class="two" id='nuvo_image'><video  width=100% muted autoplay loop>
@@ -86,19 +124,21 @@
       <span class="papertitle">Hydro-GRNNI: Hydrological Graph Recurrent Neural Network for Imputation</span>
     </a>
     <br>
-<strong>Shuo Han</strong>
+		<strong>Shuo Han</strong>,
+		<a href="">Tao Tan</a>,
+        <a href="">Yuantian Miao</a>, 
+        <a href="">Xiao Chen</a>,
+        <a href="">Nan Sun</a>
     <br>
-    <em>Northwestern University</em>, 2024
+    <em>AJCAI</em>, 2025
     <br>
-    <a href="data/hydro_pre.pdf">project page</a>
-    /
-    <a href="data/Northwestern_Thesis_2024.pdf">PDF</a>
+    <a href="">arXiv</a>
     <p></p>
     <p>
-    A novel approach which enhances the resolution of hydrological data with spatiotemporal inputs, leveraging Graph Recurrent Neural Network (GRNN).
+    A large-scale empirical study revealing instability of LLMs under paraphrased prompts in vulnerability detection, highlighting the need for robust prompting and model refinement.
     </p>
   </td>
-</tr>
+</tr> -->
 
 <tr onmouseout="cat3d_stop()" onmouseover="cat3d_start()">
 	<!-- bgcolor="#ffffd0" -->
